@@ -42,4 +42,11 @@ pip install requests colorama
 python run.py
 ```
 
+## ⚙️ Configuration
 
+**​Proxy Strategy:** While the tool includes *default proxies*, using your own high-quality Private SOCKS5 Proxies is the key to maintaining a 100% WAF bypass rate.
+
+**​Optimization:** Always monitor target response times and adjust thread counts and proxy rotation settings to achieve optimal resource exhaustion.
+
+**​⚠️ Disclaimer**
+​This toolkit is developed exclusively for professional security testing and educational purposes. Unauthorized use against systems or networks without explicit permission is illegal and unethical. The LKHackers Team assumes no liability for any misuse of this software.
