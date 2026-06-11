@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Method-L7_HTTP_Flood-orange.svg">
 </p>
 
-**LK-HACKERS WAF-BYPASS** is a sophisticated, high-performance DDoS toolkit designed to bypass advanced security layers such as Cloudflare, Akamai, and Sucuri. Unlike standard DDoS tools that are easily mitigated by firewalls, our toolkit features a unique **WAF Selection Menu** and a **Dynamic Proxy Rotation** system, allowing it to adapt to specific target security configurations and penetrate robust defenses.
+**LK-HACKERS WAF-BYPASS** is a sophisticated, high-performance DDoS toolkit designed to bypass advanced security layers such as **Cloudflare, Akamai** and **Sucuri.** Unlike standard DDoS tools that are easily mitigated by firewalls, our toolkit features a unique **WAF Selection Menu** and a **Dynamic Proxy Rotation** system, allowing it to adapt to specific target security configurations and penetrate robust defenses.
 
 ---
 
@@ -14,7 +14,7 @@
 
 * **WAF Bypass Logic:** Simulates thousands of requests originating from diverse, rotating IP addresses, making it impossible for standard firewalls to filter or block the attack.
 * **Cloudflare Bypass:** Utilizes random query injection to bypass CDN challenges, sending traffic directly to the origin server to trigger a crash.
-* **Dynamic Proxy Rotation:** Supports both default built-in proxies and user-provided private SOCKS5 Proxies. For 100% WAF bypass efficiency, private SOCKS5 proxy usage is highly recommended.
+* **Dynamic Proxy Rotation:** Supports both default built-in proxies and user-provided private SOCKS5 Proxies. For 100% WAF bypass efficiency, **private SOCKS5 proxy** usage is highly recommended.
 * **WAF Selection Menu:** Automatically adjusts the attack methodology based on the identified firewall/WAF protecting the target.
 
 ---
@@ -32,3 +32,14 @@ For maximum impact, deploy this tool on high-bandwidth infrastructure such as Di
 Running with root privileges maximizes network interface throughput, significantly increasing the speed and power of the attack.
 ```bash
 sudo python3 run.py
+```
+
+## Termux (NO ROOT ACCESS)
+​Designed for seamless operation on Termux, this tool executes efficiently within the Python layer without requiring root access.
+```bash
+pkg install python
+pip install requests colorama
+python run.py
+```
+
+
