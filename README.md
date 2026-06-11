@@ -31,6 +31,9 @@ For maximum impact, deploy this tool on high-bandwidth infrastructure such as Di
 ### 1. Kali Linux / Ubuntu / Mac OS (ROOT ACCESS)
 Running with root privileges maximizes network interface throughput, significantly increasing the speed and power of the attack.
 ```bash
+pip install requests colorama
+git clone https://github.com/LK-HACKERS/WAF-BYPASS-DDOS.git
+cd WAF-BYPASS-DDOS
 sudo python3 run.py
 ```
 
@@ -39,6 +42,8 @@ sudo python3 run.py
 ```bash
 pkg install python
 pip install requests colorama
+git clone https://github.com/LK-HACKERS/WAF-BYPASS-DDOS.git
+cd WAF-BYPASS-DDOS
 python run.py
 ```
 
